@@ -3,15 +3,15 @@ namespace Snowplow\RefererParser;
 
 final class Medium
 {
-    const SEARCH = 'search';
+    public const SEARCH = 'search';
 
-    const SOCIAL = 'social';
+    public const SOCIAL = 'social';
 
-    const UNKNOWN = 'unknown';
+    public const UNKNOWN = 'unknown';
 
-    const INTERNAL = 'internal';
+    public const INTERNAL = 'internal';
 
-    const EMAIL = 'email';
+    public const EMAIL = 'email';
 
-    const INVALID = 'invalid';
+    public const INVALID = 'invalid';
 }
