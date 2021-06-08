@@ -12,7 +12,7 @@ class Parser
     /**
      * @var string[]
      */
-    private array $internalHosts = [];
+    private $internalHosts = [];
 
     public function __construct(ConfigReaderInterface $configReader = null, array $internalHosts = [])
     {
